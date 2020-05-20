@@ -2,6 +2,7 @@
 var kmUtente = parseInt(prompt('Quanti chilometri vuole percorrere?'));
 var etaUtente = parseInt(prompt('Quanti anni ha?'));
 
+// Risultati Possibili
 if ( isNaN(kmUtente) || isNaN(etaUtente) ) {
   alert('Errore: Il numero che hai digitato non è valido.')
   var prezzoTot = 'Prezzo non disponibile';
